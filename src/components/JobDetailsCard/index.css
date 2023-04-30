@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+.job-details-card {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-card {
+    padding: 50px;
+  }
+}
+
+.job-details-company-logo-title-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.job-details-company-logo {
+  width: 60px;
+}
+
+.job-details-title-rating-container {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-details-title,
+.job-details-rating,
+.job-details-package-per-annum {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.job-details-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.job-details-star-icon {
+  height: 22px;
+  width: 22px;
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.job-details-location-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-details-location-job-type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.job-details-location-icon,
+.job-details-type-icon {
+  height: 25px;
+  width: 25px;
+  color: #f8fafc;
+  margin-right: 10px;
+}
+
+.job-details-location,
+.job-details-employment-type {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-right: 20px;
+}
+
+hr {
+  background-color: #7e858e;
+  height: 1px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.job-details-description-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.job-details-description-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-description-title {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 700;
+    color: #f8fafc;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.job-details-visit-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #6366f1;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.job-details-link-icon {
+  color: inherit;
+  height: 20px;
+  width: 20px;
+  margin-left: 6px;
+}
+
+.job-details-description,
+.job-details-skill-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin: 0px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-description,
+  .job-details-skill-name {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    color: #f8fafc;
+    margin: 0px;
+    line-height: 1.5;
+  }
+}
+
+.job-details-skills-list-container {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.job-details-skill-item {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-skill-item {
+    width: 33%;
+  }
+}
+
+.job-details-skill-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-skill-image {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.job-details-description-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-details-life-at-company-image {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-description-image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .job-details-life-at-company-image {
+    width: 45%;
+    margin: 0px;
+    margin-left: 40px;
+  }
+}

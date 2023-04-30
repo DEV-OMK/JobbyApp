@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.filter-group-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  background-color: #7e858e;
+  height: 1px;
+  width: 100%;
+}
+
+.filter-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.filter-list-container {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.filter-list-item {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-input {
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+}
+
+.filter-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #f8fafc;
+  line-height: 1.5;
+}
